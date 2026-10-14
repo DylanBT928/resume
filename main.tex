@@ -1,0 +1,80 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper, top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
+\usepackage{XCharter}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\raggedright
+\pagestyle{empty}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\titleformat{\section}{\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule\vspace{-6.5pt}]
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+\setlist[itemize]{itemsep=-2pt, leftmargin=12pt, topsep=7pt}
+
+% --- BEGIN RESUME ---
+
+\begin{document}
+
+% --- HEADER ---
+
+\centerline{\Huge First Last}
+\vspace{5pt}
+\centerline{\href{mailto:example@gmail.com}{example@gmail.com} | \href{https://www.linkedin.com/in/example}{linkedin.com/in/example} | \href{https://github.com/example}{github.com/example} | \href{https://example.com}{example.com}}
+\vspace{-10pt}
+
+% EDUCATION
+
+\section*{Education}
+\textbf{University Name} -- B.S. in Computer Science\hfill Expected June XXX
+\vspace{-10pt}
+
+% EXPERIENCE
+
+\section*{Experience}
+
+\textbf{\href{https://www.nvidia.com/en-us/}{NVIDIA}} \hfill Incoming June 2027 \\
+\textit{Systems Software Engineer Intern} \hfill Santa Clara, CA \\
+\vspace{-9pt}
+\begin{itemize}
+  \item Bullet Point 1
+  \item Bullet Point 2
+  \item Bullet Point 3
+\end{itemize}
+
+\textbf{\href{https://www.nvidia.com/en-us/}{NVIDIA}} \hfill June 2026 -- Sept 2026 \\
+\textit{Systems Software Engineer Intern} \hfill Santa Clara, CA \\
+\vspace{-9pt}
+\begin{itemize}
+  \item Bullet Point 1
+  \item Bullet Point 2
+  \item Bullet Point 3
+\end{itemize}
+
+\vspace{-18.5pt}
+
+% --- PROJECTS ---
+
+\section*{Projects}
+
+\textbf{Project 1} \hfill \href{https://github.com/example/repo}{github.com/example/repo} \\
+\vspace{-9pt}
+\begin{itemize}
+  \item Bullet Point 1
+  \item Bullet Point 2
+  \item Bullet Point 3
+\end{itemize}
+
+\vspace{-18.5pt}
+
+% --- SKILLS ---
+
+\section*{Skills}
+\textbf{Languages:} C++, C, Python, x86-64 Assembly \\
+\textbf{Tools \& Technologies:} ...
+
+\vspace{-18.5pt}
+
+\end{document}
